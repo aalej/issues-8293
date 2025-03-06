@@ -16,7 +16,7 @@ Tools • Dart 3.5.0 • DevTools 2.37.2
 ## Steps to reproduce
 
 1. Run `flutter pub get`
-1. Run `firebase deploy`
+1. Run `firebase deploy --only hosting:<SITE|TARGET> --project PROJECT`
 1. See outputs below with using firebase-tools v13.32.0 and v13.31.2
 
 ### 13.32.0
