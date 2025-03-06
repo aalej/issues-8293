@@ -17,39 +17,9 @@ Tools • Dart 3.5.0 • DevTools 2.37.2
 
 1. Run `flutter pub get`
 1. Run `firebase deploy`
+1. See outputs below with using firebase-tools v13.32.0 and v13.31.2
 
-```
-$ firebase deploy --project PROJECT_ID
-
-   Thank you for trying our experimental support for Flutter Web on Firebase Hosting.
-   While this integration is maintained by Googlers it is not a supported Firebase product.
-   Issues filed on GitHub will be addressed on a best-effort basis by maintainers and other community members.
-
-   Documentation: https://firebase.google.com/docs/hosting/frameworks/frameworks-overview
-   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
-   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
-
-   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
-
-
-Compiling lib/main.dart for the Web...                             674ms
-✓ Built build/web
-
-=== Deploying to 'PROJECT_ID'...
-
-i  deploying hosting
-i  hosting[PROJECT_ID]: beginning deploy...
-i  hosting[PROJECT_ID]: found 30 files in .firebase/PROJECT_ID/hosting
-✔  hosting[PROJECT_ID]: file upload complete
-i  hosting[PROJECT_ID]: finalizing version...
-✔  hosting[PROJECT_ID]: version finalized
-i  hosting[PROJECT_ID]: releasing new version...
-✔  hosting[PROJECT_ID]: release complete
-
-✔  Deploy complete!
-```
-
-## 13.32.0
+### 13.32.0
 
 Run `firebase deploy --only hosting:aalej-test-site --project PROJECT_ID`
 
@@ -68,7 +38,7 @@ i  hosting[aalej-test-site]: releasing new version...
 ✔  Deploy complete!
 ```
 
-## 13.31.2
+### 13.31.2
 
 Run `firebase deploy --only hosting:aalej-test-site --project PROJECT_ID`
 
